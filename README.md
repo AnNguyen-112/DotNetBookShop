@@ -16,7 +16,7 @@
   "SendGrid": {
     "SecretKey": ""
   }
-  # The admin account will be automatically created and can be used when first starting the project (in GettingStart1.DataAcess.DbInitializer.DbInitializer.cs)
+  3) The admin account will be automatically created and can be used when first starting the project (in GettingStart1.DataAcess.DbInitializer.DbInitializer.cs)
   //if roles are not created, then we will create admin user as well 
                 _userManager.CreateAsync(new ApplicationUser
                 {
@@ -29,3 +29,4 @@
                     State = "Tx",
                     PostalCode = "99999"
                 }, "Admin123*").GetAwaiter().GetResult();
+4)the admin gmail: test@gmail.com, name: Admin,and password:Admin123*
